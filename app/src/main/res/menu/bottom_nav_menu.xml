@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/book"
+        android:title="校园资讯" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/secondhand"
+        android:title="旧物商场" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/publish"
+        android:title="我的旧物" />
+
+    <item
+        android:id="@+id/navigation_myself"
+        android:icon="@drawable/contant"
+        android:title="个人信息"
+        />
+</menu>

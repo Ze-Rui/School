@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/login_bg"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.LoginActivity">
+
+    <GridLayout
+        android:layout_width="326dp"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="215dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="邮箱：" />
+
+        <EditText
+            android:id="@+id/email_lg_ed"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="密码："/>
+
+        <EditText
+            android:id="@+id/pwd_lg_ed"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:text=""
+            android:textSize="24dp" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/lg_lg_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="376dp"
+        android:background="@drawable/button_white"
+        android:paddingLeft="100px"
+        android:paddingRight="100px"
+        android:text="登录"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/reg_lg_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="466dp"
+        android:background="@drawable/button_white"
+        android:text="注册"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+</RelativeLayout>

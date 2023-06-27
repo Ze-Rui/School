@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/zbg"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/blue"
+        android:text="旧物闲置"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150px"
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:text="    物品名："
+                android:textSize="25dp" />
+            <EditText
+                android:id="@+id/gname_ed"
+                android:layout_width="800px"
+                android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:text="    价    格："
+                android:textSize="25dp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                />
+            <EditText
+                android:id="@+id/price_ed"
+                android:layout_width="800px"
+                android:layout_height="60dp"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:text="    分    类："
+                android:textSize="25dp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="60dp" />
+            <Spinner
+                android:id="@+id/spinner_kind"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:entries="@array/kind"
+                android:layout_height="40dp"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/publish_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="120px"
+        android:layout_marginBottom="120dp"
+        android:background="@color/loworange"
+        android:text="点击发布"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

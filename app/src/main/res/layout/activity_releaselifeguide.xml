@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/zbg"
+    tools:context=".activity.ShowlifeguideActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp">
+        <Spinner
+            android:id="@+id/type"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"
+            android:background="@color/drack"
+            android:entries="@array/type">
+        </Spinner>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/release_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:gravity="right"
+            android:text="点击发布"
+            android:background="@color/loworange"
+            android:textColor="#cccccc"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/release_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/blue"
+        android:hint="请输入标题"
+        android:textSize="80px" />
+    <TextView
+        android:id="@+id/lifeguide_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="20dp"
+        android:textColor="#808080"
+        android:text="6月7日  14:02"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_height="1dp"
+        android:background="#000"/>
+
+    <EditText
+        android:id="@+id/release_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="请输入内容"
+        android:minLines="3"
+        android:paddingLeft="100px"
+        android:paddingRight="100px"
+        android:textSize="60px" />
+
+</LinearLayout>

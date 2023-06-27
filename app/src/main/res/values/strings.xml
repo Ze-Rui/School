@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">NJPISchoolApp</string>
+<!--    <string name="url">http://192.168.43.100:9090/</string>-->
+    <!--我的192.168.31.162-->
+    <string name="url">http://192.168.43.100:9090/</string>
+    <string name="title_activity_main2">NJPISchoolApp</string>
+    <string name="length">match_parent-70px</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <color name="blue">#87cefa</color>
+    <color name="green">#00ffff</color>
+    <color name="drack">#a8a8a8</color>
+    <color name="loworange">#ffcc00</color>
+    <color name="red">#ff3333</color>
+    <string name="title_notifications">Notifications</string>
+    <!--如电子产品，书藉，交通工具，运动器材，其它等-->
+    <string-array name="kind">
+        <item>电子产品</item>
+        <item>书藉</item>
+        <item>交通工具</item>
+        <item>运动器材</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="search">
+        <item>全部</item>
+        <item>电子产品</item>
+        <item>书藉</item>
+        <item>交通工具</item>
+        <item>运动器材</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="type">
+        <item>生活资讯</item>
+        <item>学习资讯</item>
+        <item>旅游资讯</item>
+        <item>其它资讯</item>
+    </string-array>
+</resources>
